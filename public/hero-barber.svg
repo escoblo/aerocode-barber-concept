@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#3d2a20"/>
+      <stop offset="1" stop-color="#171411"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="55%">
+      <stop stop-color="#c18861" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#1b1714" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#glow)"/>
+  <path d="M0 792h800v208H0z" fill="#110f0d"/>
+  <path d="M168 822h464" stroke="#ad6c43" stroke-width="4" opacity=".32"/>
+  <g fill="none" stroke="#e4cab3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M303 218c4-69 49-116 101-116 57 0 103 56 103 127 0 67-42 127-104 127-57 0-104-57-104-128" stroke-width="10" opacity=".72"/>
+    <path d="M316 237c20 18 58 20 87 7 39-18 66-13 92 7" stroke-width="8" opacity=".6"/>
+    <path d="M354 291c28 22 69 21 95-2" stroke-width="7" opacity=".6"/>
+    <path d="M330 358c-43 24-70 73-70 139v77h288v-77c0-65-27-114-71-139" stroke-width="12" opacity=".72"/>
+    <path d="M275 489h258l39 222H236z" stroke-width="13" opacity=".68"/>
+    <path d="M284 577h240" stroke-width="9" opacity=".45"/>
+    <path d="M310 714l-24 112M499 714l25 112M249 827h80M480 827h80" stroke-width="14" opacity=".62"/>
+    <path d="M404 382v93M365 437l39 38 40-38" stroke-width="7" opacity=".5"/>
+  </g>
+  <g opacity=".45">
+    <circle cx="119" cy="169" r="69" fill="none" stroke="#ad6c43" stroke-width="2"/>
+    <circle cx="119" cy="169" r="49" fill="none" stroke="#ad6c43"/>
+    <path d="M119 98v142M48 169h142" stroke="#ad6c43"/>
+  </g>
+  <text x="70" y="920" fill="#f4f0e8" font-family="Georgia, serif" font-size="29" letter-spacing="8" opacity=".58">ATELIER 33</text>
+</svg>
