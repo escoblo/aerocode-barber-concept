@@ -23,18 +23,18 @@ const services = [
 
 const gallery = [
   {
-    image: "/gallery-fade.svg",
-    title: "Fade précis",
+    image: "/gallery-cut-1.png",
+    title: "Low fade net",
     label: "Dégradé",
   },
   {
-    image: "/gallery-beard.svg",
-    title: "Barbe sculptée",
-    label: "Barbe",
+    image: "/gallery-cut-2.png",
+    title: "Contours & barbe",
+    label: "Finition",
   },
   {
-    image: "/gallery-classic.svg",
-    title: "Coupe classique",
+    image: "/gallery-cut-3.png",
+    title: "Coupe courte texturée",
     label: "Signature",
   },
 ];
